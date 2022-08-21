@@ -6,6 +6,7 @@ Description: Activate comments on albums pages
 Plugin URI: auto
 Author: Mistic
 Author URI: http://www.strangeplanet.fr
+Has Settings: false
 */
 
 defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');

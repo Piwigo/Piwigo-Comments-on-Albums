@@ -10,7 +10,7 @@ global $template, $page, $conf, $user;
 $template->assign('COA_MODE', (isset($_GET['display_mode']) and $_GET['display_mode'] == 'albums') ? 'albums' : 'photos');
 $template->set_prefilter('comments', 'coa_add_button');
 
-function coa_add_button($content, &$smarty)
+function coa_add_button($content)
 {
   $search ='<form class="filter" action="{$F_ACTION}" method="get">';
 
