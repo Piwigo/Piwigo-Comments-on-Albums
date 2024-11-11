@@ -6,7 +6,7 @@
 #comments { margin:10px 0 0 0; padding: 2px 5px !important; position:relative; }
 #comments .commentElement { width:98%; }
 
-{if $COMMENTS_ON_TOP}
+{if isset($COMMENTS_ON_TOP) and $COMMENTS_ON_TOP}
 #comments { margin:0 0 10px 0; }
 {/if}
 
